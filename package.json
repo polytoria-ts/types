@@ -1,6 +1,6 @@
 {
   "name": "@polytoria-ts/types",
-  "version": "1.0.9",
+  "version": "1.0.10",
   "description": "Generate TypeScript typedefs from Polytoria's yaml",
   "repository": {
     "type": "git",

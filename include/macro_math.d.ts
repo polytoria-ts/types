@@ -32,3 +32,16 @@ declare interface Vector3 {
 	/** macro for Vector3 // Vector3 | number */
 	idiv(this: Vector3, other: Vector3 | number): Vector3;
 }
+
+declare interface vector {
+	/** macro for vector + vector */
+	add(this: vector, v: vector): vector;
+	/** macro for vector - vector */
+	sub(this: vector, v: vector): vector;
+	/** macro for vector * vector | number */
+	mul(this: vector, other: vector | number): vector;
+	/** macro for vector / vector | number */
+	div(this: vector, other: vector | number): vector;
+	/** macro for vector // vector | number */
+	idiv(this: vector, other: vector | number): vector;
+}
