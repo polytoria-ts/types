@@ -4,7 +4,7 @@
   "description": "Generate TypeScript typedefs from Polytoria's yaml",
   "repository": {
     "type": "git",
-    "directory": "https://github.com/polytoria-ts/types.git"
+    "directory": "git+https://github.com/polytoria-ts/types.git"
   },
   "type": "commonjs",
   "scripts": {
